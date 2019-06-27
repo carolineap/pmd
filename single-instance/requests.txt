@@ -1,0 +1,58 @@
+GET /_api/gharial/imdb/vertex/imdb_vertices/{vertex}
+
+GET /_api/gharial/imdb/vertex/imdb_vertices/{vertex}
+
+GET /_api/gharial/imdb/vertex/imdb_vertices/{vertex}
+
+GET /_api/gharial/imdb/edge/imdb_vertices/{vertex}
+
+GET /_api/gharial/imdb/edge/imdb_edges/{edge}
+
+GET /_api/gharial/imdb/edge/imdb_edges/{edge}
+
+
+POST /_api/traversal
+
+{ 
+  "startVertex" : "imdb_vertices/{vertex}", 
+  "graphName" : "imdb", 
+  "direction" : "outbound" 
+}
+
+POST /_api/traversal
+
+{ 
+  "startVertex" : "imdb_vertices/{vertex}", 
+  "graphName" : "imdb", 
+  "direction" : "any", 
+  "uniqueness" : { 
+    "vertices" : "none", 
+    "edges" : "global" 
+  } 
+}
+
+PATCH /_api/gharial/imdb/vertex/imdb_vertices/{vertex}
+{
+	"biography" = "some_random_biography"
+}
+
+
+PATCH /_api/gharial/imdb/vertex/imdb_vertices/{vertex}
+{
+	"birthplace" = "a_nice_place"
+}
+
+PUT /_api/gharial/imdb/vertex/imdb_vertices/{vertex}
+{
+	"name" = "Nice Name"
+	"biography" = "some_random_biography"
+	"birthplace" = "a_nice_place"
+}
+
+PUT /_api/gharial/imdb/vertex/imdb_vertices/{vertex}
+{
+	"description" = "some_random_description"
+	"title" = 	"a_nice_title"
+}
+
+
