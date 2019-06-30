@@ -10,24 +10,24 @@ wget https://raw.githubusercontent.com/arangodb/example-datasets/master/Graphs/I
 cd ../
 
 curl -X POST --header 'accept: application/json' --data-binary @- --dump - http://localhost:8529/_api/gharial <<EOF
-{ 
-  "name" : "people", 
-  
-  "edgeDefinitions" : [ 
-    { 
-      "collection" : "imdb_edges", 
-      "from" : [ 
-        "imdb_vertices" 
-      ], 
-      "to" : [ 
-        "imdb_vertices" 
-      ] 
-    } 
-  ], 
-  "options" : { 
-    "replicationFactor" : 3, 
+{
+  "name" : "imdb",
+
+  "edgeDefinitions" : [
+    {
+      "collection" : "imdb_edges",
+      "from" : [
+        "imdb_vertices"
+      ],
+      "to" : [
+        "imdb_vertices"
+      ]
+    }
+  ],
+  "options" : {
+    "replicationFactor" : 3,
     "numberOfShards" : 2
-   } 
+   }
 }
 EOF
 START=`date +%s`
