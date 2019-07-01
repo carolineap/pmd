@@ -23,16 +23,12 @@ curl -X POST --header 'accept: application/json' --data-binary @- --dump - http:
         "imdb_vertices"
       ]
     }
-  ],
-  "options" : {
-    "replicationFactor" : 3,
-    "numberOfShards" : 2
-   }
+  ]
 }
 EOF
 START=`date +%s`
 echo "Starting restore..."
-arangorestore --server.password '' dump
+arangorestore --server.password '' dump --replication-factor 3
 END=`date +%s`
 echo "Restore took: $((END - START)) seconds"
 
