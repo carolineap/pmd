@@ -1,0 +1,52 @@
+2019-07-01T02:07:49Z [15326] INFO hangup received, about to reopen logfile
+2019-07-01T02:07:49Z [15326] INFO hangup received, reopened logfile
+2019-07-01T02:07:49Z [15326] INFO hangup received, about to reopen logfile
+2019-07-01T02:07:49Z [15326] INFO hangup received, reopened logfile
+2019-07-01T23:39:11Z [4230] INFO ArangoDB 3.4.6-1 [linux] 64bit, using jemalloc, build tags/v3.4.6.1-0-gd3c504bfc9, VPack 0.1.33, RocksDB 5.16.0, ICU 58.1, V8 5.7.492.77, OpenSSL 1.1.0j  20 Nov 2018
+2019-07-01T23:39:11Z [4230] INFO detected operating system: Linux version 4.15.0-54-generic (buildd@lgw01-amd64-014) (gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)) #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+2019-07-01T23:39:11Z [4230] WARNING {memory} maximum number of memory mappings per process is 65530, which seems too low. it is recommended to set it to at least 512000
+2019-07-01T23:39:11Z [4230] WARNING {memory} execute 'sudo sysctl -w "vm.max_map_count=512000"'
+2019-07-01T23:39:11Z [4230] INFO {authentication} Jwt secret not specified, generating...
+2019-07-01T23:39:11Z [4230] INFO using storage engine rocksdb
+2019-07-01T23:39:11Z [4230] INFO {cluster} Starting up with role AGENT
+2019-07-01T23:39:11Z [4230] INFO {syscall} file-descriptors (nofiles) hard limit is 65535, soft limit is 65535
+2019-07-01T23:39:11Z [4230] INFO {authentication} Authentication is turned off, authentication for unix sockets is turned on
+2019-07-01T23:39:11Z [4230] WARNING found existing lockfile '/home/isabelamatsumoto/Downloads/Trabalhos/PMD/pmd/cluster/localdata/local-slave-1/agent8551/data/LOCK' of previous process with pid 15326, but that process seems to be dead already
+2019-07-01T23:39:11Z [4230] INFO using endpoint 'http+tcp://[::]:8551' for non-encrypted requests
+2019-07-01T23:39:11Z [4230] INFO ArangoDB (version 3.4.6-1 [linux]) is ready for business. Have fun!
+2019-07-01T23:39:11Z [4230] INFO {agency} Restarting agent from persistence ...
+2019-07-01T23:39:12Z [4230] INFO {agency} Found majority of agents in agreement over active pool. Finishing startup sequence.
+2019-07-01T23:39:12Z [4230] INFO {agency} Activating agent.
+2019-07-01T23:39:12Z [4230] INFO {agency} Setting role to follower in term 2
+2019-07-01T23:39:15Z [4230] INFO {agency} AGNT-00817281-564e-48cf-9c1d-5a00967c0db0: candidating in term 2
+2019-07-01T23:39:15Z [4230] INFO {agency} AGNT-00817281-564e-48cf-9c1d-5a00967c0db0: changing term or votedFor, current role: Candidate term 3 votedFor: AGNT-00817281-564e-48cf-9c1d-5a00967c0db0
+2019-07-01T23:39:15Z [4230] INFO {agency} AGNT-00817281-564e-48cf-9c1d-5a00967c0db0: leading in term 3
+2019-07-01T23:39:15Z [4230] WARNING {agency} Last confirmation from peer AGNT-8dbfbcd2-3e0f-4a56-8fa1-6177690eec17 was received more than minPing ago: 229.514
+2019-07-01T23:39:15Z [4230] WARNING {agency} Last confirmation from peer AGNT-784d6053-0b8a-4dfc-bb32-9f1eccc7c445 was received more than minPing ago: 229.514
+2019-07-01T23:39:15Z [4230] INFO {agency} AGNT-00817281-564e-48cf-9c1d-5a00967c0db0 rebuilt key-value stores - serving.
+2019-07-01T23:39:15Z [4230] INFO {supervision} Postponing supervision for now, waiting for incoming heartbeats: 0
+2019-07-01T23:39:16Z [4230] INFO {supervision} Postponing supervision for now, waiting for incoming heartbeats: 1
+2019-07-01T23:39:17Z [4230] INFO control-c received, beginning shut down sequence
+2019-07-01T23:39:17Z [4230] FATAL control-c received (again!), terminating
+2019-07-01T23:39:35Z [5236] INFO ArangoDB 3.4.6-1 [linux] 64bit, using jemalloc, build tags/v3.4.6.1-0-gd3c504bfc9, VPack 0.1.33, RocksDB 5.16.0, ICU 58.1, V8 5.7.492.77, OpenSSL 1.1.0j  20 Nov 2018
+2019-07-01T23:39:35Z [5236] INFO detected operating system: Linux version 4.15.0-54-generic (buildd@lgw01-amd64-014) (gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)) #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+2019-07-01T23:39:35Z [5236] WARNING {memory} maximum number of memory mappings per process is 65530, which seems too low. it is recommended to set it to at least 512000
+2019-07-01T23:39:35Z [5236] WARNING {memory} execute 'sudo sysctl -w "vm.max_map_count=512000"'
+2019-07-01T23:39:35Z [5236] INFO {authentication} Jwt secret not specified, generating...
+2019-07-01T23:39:35Z [5236] INFO using storage engine rocksdb
+2019-07-01T23:39:35Z [5236] INFO {cluster} Starting up with role AGENT
+2019-07-01T23:39:35Z [5236] INFO {syscall} file-descriptors (nofiles) hard limit is 65535, soft limit is 65535
+2019-07-01T23:39:35Z [5236] INFO {authentication} Authentication is turned off, authentication for unix sockets is turned on
+2019-07-01T23:39:35Z [5236] INFO using endpoint 'http+tcp://[::]:8551' for non-encrypted requests
+2019-07-01T23:39:35Z [5236] INFO ArangoDB (version 3.4.6-1 [linux]) is ready for business. Have fun!
+2019-07-01T23:39:35Z [5236] INFO {agency} Restarting agent from persistence ...
+2019-07-01T23:39:36Z [5236] INFO {agency} Found majority of agents in agreement over active pool. Finishing startup sequence.
+2019-07-01T23:39:36Z [5236] INFO {agency} Activating agent.
+2019-07-01T23:39:36Z [5236] INFO {agency} Setting role to follower in term 3
+2019-07-01T23:39:39Z [5236] INFO {agency} AGNT-00817281-564e-48cf-9c1d-5a00967c0db0: candidating in term 3
+2019-07-01T23:39:39Z [5236] INFO {agency} AGNT-00817281-564e-48cf-9c1d-5a00967c0db0: changing term or votedFor, current role: Candidate term 4 votedFor: AGNT-00817281-564e-48cf-9c1d-5a00967c0db0
+2019-07-01T23:39:39Z [5236] INFO {agency} AGNT-00817281-564e-48cf-9c1d-5a00967c0db0: leading in term 4
+2019-07-01T23:39:39Z [5236] WARNING {agency} Last confirmation from peer AGNT-8dbfbcd2-3e0f-4a56-8fa1-6177690eec17 was received more than minPing ago: 253.248
+2019-07-01T23:39:39Z [5236] WARNING {agency} Last confirmation from peer AGNT-784d6053-0b8a-4dfc-bb32-9f1eccc7c445 was received more than minPing ago: 253.248
+2019-07-01T23:39:39Z [5236] INFO {agency} AGNT-00817281-564e-48cf-9c1d-5a00967c0db0 rebuilt key-value stores - serving.
+2019-07-01T23:39:39Z [5236] INFO {supervision} Postponing supervision for now, waiting for incoming heartbeats: 0

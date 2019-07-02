@@ -1,0 +1,45 @@
+2019-07-01T02:07:49Z [15757] INFO hangup received, about to reopen logfile
+2019-07-01T02:07:49Z [15757] INFO hangup received, reopened logfile
+2019-07-01T02:07:49Z [15757] INFO hangup received, about to reopen logfile
+2019-07-01T02:07:49Z [15757] INFO hangup received, reopened logfile
+2019-07-01T02:07:49Z [15757] INFO hangup received, about to reopen logfile
+2019-07-01T02:07:49Z [15757] INFO hangup received, reopened logfile
+2019-07-01T02:07:49Z [15757] INFO hangup received, about to reopen logfile
+2019-07-01T02:07:49Z [15757] INFO hangup received, reopened logfile
+2019-07-01T23:39:12Z [4662] INFO ArangoDB 3.4.6-1 [linux] 64bit, using jemalloc, build tags/v3.4.6.1-0-gd3c504bfc9, VPack 0.1.33, RocksDB 5.16.0, ICU 58.1, V8 5.7.492.77, OpenSSL 1.1.0j  20 Nov 2018
+2019-07-01T23:39:12Z [4662] INFO detected operating system: Linux version 4.15.0-54-generic (buildd@lgw01-amd64-014) (gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)) #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+2019-07-01T23:39:12Z [4662] WARNING {memory} maximum number of memory mappings per process is 65530, which seems too low. it is recommended to set it to at least 512000
+2019-07-01T23:39:12Z [4662] WARNING {memory} execute 'sudo sysctl -w "vm.max_map_count=512000"'
+2019-07-01T23:39:12Z [4662] INFO {authentication} Jwt secret not specified, generating...
+2019-07-01T23:39:12Z [4662] INFO using storage engine rocksdb
+2019-07-01T23:39:12Z [4662] INFO {cluster} Starting up with role PRIMARY
+2019-07-01T23:39:15Z [4662] INFO {syscall} file-descriptors (nofiles) hard limit is 65535, soft limit is 65535
+2019-07-01T23:39:15Z [4662] INFO {authentication} Authentication is turned off, authentication for unix sockets is turned on
+2019-07-01T23:39:15Z [4662] WARNING found existing lockfile '/home/isabelamatsumoto/Downloads/Trabalhos/PMD/pmd/cluster/localdata/dbserver8530/data/LOCK' of previous process with pid 15757, but that process seems to be dead already
+2019-07-01T23:39:27Z [4662] INFO {agencycomm} Flaky agency communication to http+tcp://127.0.0.1:8541. Unsuccessful consecutive tries: 21 (9.84s). Network checks advised. Server in startup.
+2019-07-01T23:39:28Z [4662] INFO {agencycomm} Flaky agency communication to http+tcp://127.0.0.1:8551. Unsuccessful consecutive tries: 22 (10.83s). Network checks advised. Server in startup.
+2019-07-01T23:39:29Z [4662] INFO {agencycomm} Flaky agency communication to http+tcp://127.0.0.1:8531. Unsuccessful consecutive tries: 23 (11.89s). Network checks advised. Server in startup.
+2019-07-01T23:39:30Z [4662] INFO {agencycomm} Flaky agency communication to http+tcp://127.0.0.1:8541. Unsuccessful consecutive tries: 24 (13.03s). Network checks advised. Server in startup.
+2019-07-01T23:39:31Z [4662] INFO {agencycomm} Flaky agency communication to http+tcp://127.0.0.1:8551. Unsuccessful consecutive tries: 25 (14.26s). Network checks advised. Server in startup.
+2019-07-01T23:39:33Z [4662] INFO {agencycomm} Flaky agency communication to http+tcp://127.0.0.1:8531. Unsuccessful consecutive tries: 26 (15.58s). Network checks advised. Server in startup.
+2019-07-01T23:39:34Z [4662] INFO {agencycomm} Flaky agency communication to http+tcp://127.0.0.1:8541. Unsuccessful consecutive tries: 27 (16.99s). Network checks advised. Server in startup.
+2019-07-01T23:39:36Z [4662] INFO {agencycomm} Flaky agency communication to http+tcp://127.0.0.1:8551. Unsuccessful consecutive tries: 28 (18.51s). Network checks advised. Server in startup.
+2019-07-01T23:39:37Z [4662] INFO {agencycomm} Flaky agency communication to http+tcp://127.0.0.1:8531. Unsuccessful consecutive tries: 29 (20.15s). Network checks advised. Server in startup.
+2019-07-01T23:39:39Z [4662] INFO {agencycomm} Flaky agency communication to http+tcp://127.0.0.1:8541. Unsuccessful consecutive tries: 30 (21.91s). Network checks advised. Server in startup.
+2019-07-01T23:39:39Z [4662] INFO {agencycomm} Flaky agency communication to http+tcp://127.0.0.1:8551. Unsuccessful consecutive tries: 31 (21.91s). Network checks advised. Server in startup.
+2019-07-01T23:39:39Z [4662] INFO {cluster} Cluster feature is turned on. Agency version: {"server":"arango","version":"3.4.6-1","license":"community"}, Agency endpoints: http+tcp://127.0.0.1:8551, http+tcp://127.0.0.1:8541, http+tcp://127.0.0.1:8531, server id: 'PRMR-f1e96636-9976-44e7-bbeb-db44efcb4f99', internal endpoint / address: tcp://localhost:8530', advertised endpoint: , role: PRIMARY
+2019-07-01T23:39:39Z [4662] INFO {cluster} using heartbeat interval value '1000 ms' from agency
+2019-07-01T23:39:46Z [6012] INFO ArangoDB 3.4.6-1 [linux] 64bit, using jemalloc, build tags/v3.4.6.1-0-gd3c504bfc9, VPack 0.1.33, RocksDB 5.16.0, ICU 58.1, V8 5.7.492.77, OpenSSL 1.1.0j  20 Nov 2018
+2019-07-01T23:39:46Z [6012] INFO detected operating system: Linux version 4.15.0-54-generic (buildd@lgw01-amd64-014) (gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)) #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+2019-07-01T23:39:46Z [6012] WARNING {memory} maximum number of memory mappings per process is 65530, which seems too low. it is recommended to set it to at least 512000
+2019-07-01T23:39:46Z [6012] WARNING {memory} execute 'sudo sysctl -w "vm.max_map_count=512000"'
+2019-07-01T23:39:46Z [6012] INFO {authentication} Jwt secret not specified, generating...
+2019-07-01T23:39:46Z [6012] INFO using storage engine rocksdb
+2019-07-01T23:39:46Z [6012] INFO {cluster} Starting up with role PRIMARY
+2019-07-01T23:39:46Z [6012] INFO {syscall} file-descriptors (nofiles) hard limit is 65535, soft limit is 65535
+2019-07-01T23:39:46Z [6012] INFO {authentication} Authentication is turned off, authentication for unix sockets is turned on
+2019-07-01T23:39:46Z [6012] WARNING found existing lockfile '/home/isabelamatsumoto/Downloads/Trabalhos/PMD/pmd/cluster/localdata/dbserver8530/data/LOCK' of previous process with pid 4662, but that process seems to be dead already
+2019-07-01T23:39:46Z [6012] INFO {cluster} Cluster feature is turned on. Agency version: {"server":"arango","version":"3.4.6-1","license":"community"}, Agency endpoints: http+tcp://127.0.0.1:8551, http+tcp://127.0.0.1:8531, http+tcp://127.0.0.1:8541, server id: 'PRMR-f1e96636-9976-44e7-bbeb-db44efcb4f99', internal endpoint / address: tcp://localhost:8530', advertised endpoint: , role: PRIMARY
+2019-07-01T23:39:46Z [6012] INFO {cluster} using heartbeat interval value '1000 ms' from agency
+2019-07-01T23:39:46Z [6012] INFO using endpoint 'http+tcp://[::]:8530' for non-encrypted requests
+2019-07-01T23:39:46Z [6012] INFO ArangoDB (version 3.4.6-1 [linux]) is ready for business. Have fun!

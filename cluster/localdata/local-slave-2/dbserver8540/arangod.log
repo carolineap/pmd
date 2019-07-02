@@ -1,0 +1,124 @@
+2019-07-01T02:07:49Z [15761] INFO hangup received, about to reopen logfile
+2019-07-01T02:07:49Z [15761] INFO hangup received, reopened logfile
+2019-07-01T02:07:49Z [15761] INFO hangup received, about to reopen logfile
+2019-07-01T02:07:49Z [15761] INFO hangup received, reopened logfile
+2019-07-01T23:39:12Z [4665] INFO ArangoDB 3.4.6-1 [linux] 64bit, using jemalloc, build tags/v3.4.6.1-0-gd3c504bfc9, VPack 0.1.33, RocksDB 5.16.0, ICU 58.1, V8 5.7.492.77, OpenSSL 1.1.0j  20 Nov 2018
+2019-07-01T23:39:12Z [4665] INFO detected operating system: Linux version 4.15.0-54-generic (buildd@lgw01-amd64-014) (gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)) #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+2019-07-01T23:39:12Z [4665] WARNING {memory} maximum number of memory mappings per process is 65530, which seems too low. it is recommended to set it to at least 512000
+2019-07-01T23:39:12Z [4665] WARNING {memory} execute 'sudo sysctl -w "vm.max_map_count=512000"'
+2019-07-01T23:39:12Z [4665] INFO {authentication} Jwt secret not specified, generating...
+2019-07-01T23:39:12Z [4665] INFO using storage engine rocksdb
+2019-07-01T23:39:12Z [4665] INFO {cluster} Starting up with role PRIMARY
+2019-07-01T23:39:15Z [4665] INFO {syscall} file-descriptors (nofiles) hard limit is 65535, soft limit is 65535
+2019-07-01T23:39:15Z [4665] INFO {authentication} Authentication is turned off, authentication for unix sockets is turned on
+2019-07-01T23:39:15Z [4665] WARNING found existing lockfile '/home/isabelamatsumoto/Downloads/Trabalhos/PMD/pmd/cluster/localdata/local-slave-2/dbserver8540/data/LOCK' of previous process with pid 15761, but that process seems to be dead already
+2019-07-01T23:39:16Z [4665] INFO {cluster} Cluster feature is turned on. Agency version: {"server":"arango","version":"3.4.6-1","license":"community"}, Agency endpoints: http+tcp://127.0.0.1:8551, http+tcp://127.0.0.1:8531, http+tcp://127.0.0.1:8541, server id: 'PRMR-8e408825-708e-4665-88f6-0be10560832c', internal endpoint / address: tcp://localhost:8540', advertised endpoint: , role: PRIMARY
+2019-07-01T23:39:16Z [4665] INFO {cluster} using heartbeat interval value '1000 ms' from agency
+2019-07-01T23:39:16Z [4665] INFO using endpoint 'http+tcp://[::]:8540' for non-encrypted requests
+2019-07-01T23:39:16Z [4665] INFO ArangoDB (version 3.4.6-1 [linux]) is ready for business. Have fun!
+2019-07-01T23:39:17Z [4665] INFO control-c received, beginning shut down sequence
+2019-07-01T23:39:17Z [4665] FATAL control-c received (again!), terminating
+2019-07-01T23:39:36Z [5667] INFO ArangoDB 3.4.6-1 [linux] 64bit, using jemalloc, build tags/v3.4.6.1-0-gd3c504bfc9, VPack 0.1.33, RocksDB 5.16.0, ICU 58.1, V8 5.7.492.77, OpenSSL 1.1.0j  20 Nov 2018
+2019-07-01T23:39:36Z [5667] INFO detected operating system: Linux version 4.15.0-54-generic (buildd@lgw01-amd64-014) (gcc version 7.4.0 (Ubuntu 7.4.0-1ubuntu1~18.04.1)) #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+2019-07-01T23:39:36Z [5667] WARNING {memory} maximum number of memory mappings per process is 65530, which seems too low. it is recommended to set it to at least 512000
+2019-07-01T23:39:36Z [5667] WARNING {memory} execute 'sudo sysctl -w "vm.max_map_count=512000"'
+2019-07-01T23:39:36Z [5667] INFO {authentication} Jwt secret not specified, generating...
+2019-07-01T23:39:36Z [5667] INFO using storage engine rocksdb
+2019-07-01T23:39:36Z [5667] INFO {cluster} Starting up with role PRIMARY
+2019-07-01T23:39:39Z [5667] INFO {syscall} file-descriptors (nofiles) hard limit is 65535, soft limit is 65535
+2019-07-01T23:39:39Z [5667] INFO {authentication} Authentication is turned off, authentication for unix sockets is turned on
+2019-07-01T23:39:40Z [5667] INFO {cluster} Cluster feature is turned on. Agency version: {"server":"arango","version":"3.4.6-1","license":"community"}, Agency endpoints: http+tcp://127.0.0.1:8551, http+tcp://127.0.0.1:8541, http+tcp://127.0.0.1:8531, server id: 'PRMR-8e408825-708e-4665-88f6-0be10560832c', internal endpoint / address: tcp://localhost:8540', advertised endpoint: , role: PRIMARY
+2019-07-01T23:39:40Z [5667] INFO {cluster} using heartbeat interval value '1000 ms' from agency
+2019-07-01T23:39:40Z [5667] INFO using endpoint 'http+tcp://[::]:8540' for non-encrypted requests
+2019-07-01T23:39:40Z [5667] INFO ArangoDB (version 3.4.6-1 [linux]) is ready for business. Have fun!
+2019-07-01T23:39:46Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010002' for central '_system/5010001'
+2019-07-01T23:39:46Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010004' for central '_system/5010003'
+2019-07-01T23:39:46Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010007' for central '_system/5010006'
+2019-07-01T23:39:46Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22047594, last uncommitted log tick 22047594, engine rocksdb
+2019-07-01T23:39:46Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s5010007
+2019-07-01T23:39:46Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010009' for central '_system/5010008'
+2019-07-01T23:39:46Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s5010009
+2019-07-01T23:39:46Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010011' for central '_system/5010010'
+2019-07-01T23:39:46Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010016' for central '_system/5010015'
+2019-07-01T23:39:46Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s5010016
+2019-07-01T23:39:46Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010018' for central '_system/5010017'
+2019-07-01T23:39:47Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s5010018
+2019-07-01T23:39:47Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010020' for central '_system/5010019'
+2019-07-01T23:39:47Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22047597, last uncommitted log tick 22047597, engine rocksdb
+2019-07-01T23:39:47Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22048787, last uncommitted log tick 22048787, engine rocksdb
+2019-07-01T23:39:47Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22048787, last uncommitted log tick 22048787, engine rocksdb
+2019-07-01T23:39:47Z [5667] INFO {maintenance} synchronizeOneShard: done, local shard: '_system/s5010002', for central: '_system/5010001', started: 2019-07-01T23:39:46Z, ended: 2019-07-01T23:39:47Z
+2019-07-01T23:39:47Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s5010002
+2019-07-01T23:39:47Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010022' for central '_system/5010021'
+2019-07-01T23:39:47Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22048787, last uncommitted log tick 22048787, engine rocksdb
+2019-07-01T23:39:47Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s5010022
+2019-07-01T23:39:47Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010026' for central '_system/5010025'
+2019-07-01T23:39:47Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22048787, last uncommitted log tick 22048787, engine rocksdb
+2019-07-01T23:39:47Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22048787, last uncommitted log tick 22048787, engine rocksdb
+2019-07-01T23:39:47Z [5667] INFO {maintenance} synchronizeOneShard: done, local shard: '_system/s5010020', for central: '_system/5010019', started: 2019-07-01T23:39:47Z, ended: 2019-07-01T23:39:47Z
+2019-07-01T23:39:47Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s5010020
+2019-07-01T23:39:47Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010029' for central '_system/5010028'
+2019-07-01T23:39:47Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s5010029
+2019-07-01T23:39:47Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010032' for central '_system/5010031'
+2019-07-01T23:39:47Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22048790, last uncommitted log tick 22048790, engine rocksdb
+2019-07-01T23:39:48Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052249, last uncommitted log tick 22052249, engine rocksdb
+2019-07-01T23:39:48Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052249, last uncommitted log tick 22052249, engine rocksdb
+2019-07-01T23:39:48Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052249, last uncommitted log tick 22052249, engine rocksdb
+2019-07-01T23:39:48Z [5667] INFO {maintenance} synchronizeOneShard: done, local shard: '_system/s5010032', for central: '_system/5010031', started: 2019-07-01T23:39:47Z, ended: 2019-07-01T23:39:48Z
+2019-07-01T23:39:48Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s5010032
+2019-07-01T23:39:48Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010035' for central '_system/5010034'
+2019-07-01T23:39:48Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052249, last uncommitted log tick 22052249, engine rocksdb
+2019-07-01T23:39:48Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052249, last uncommitted log tick 22052249, engine rocksdb
+2019-07-01T23:39:48Z [5667] INFO {maintenance} synchronizeOneShard: done, local shard: '_system/s5010026', for central: '_system/5010025', started: 2019-07-01T23:39:47Z, ended: 2019-07-01T23:39:48Z
+2019-07-01T23:39:48Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s5010026
+2019-07-01T23:39:48Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010038' for central '_system/5010037'
+2019-07-01T23:39:48Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052249, last uncommitted log tick 22052249, engine rocksdb
+2019-07-01T23:39:48Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052249, last uncommitted log tick 22052249, engine rocksdb
+2019-07-01T23:39:49Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052249, last uncommitted log tick 22052249, engine rocksdb
+2019-07-01T23:39:49Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052249, last uncommitted log tick 22052249, engine rocksdb
+2019-07-01T23:39:49Z [5667] INFO {maintenance} synchronizeOneShard: done, local shard: '_system/s5010035', for central: '_system/5010034', started: 2019-07-01T23:39:48Z, ended: 2019-07-01T23:39:49Z
+2019-07-01T23:39:49Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s5010035
+2019-07-01T23:39:49Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s9010016' for central '_system/9010015'
+2019-07-01T23:39:49Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052249, last uncommitted log tick 22052249, engine rocksdb
+2019-07-01T23:39:49Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052266, last uncommitted log tick 22052266, engine rocksdb
+2019-07-01T23:39:49Z [5667] INFO {maintenance} synchronizeOneShard: done, local shard: '_system/s5010038', for central: '_system/5010037', started: 2019-07-01T23:39:48Z, ended: 2019-07-01T23:39:49Z
+2019-07-01T23:39:49Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s5010038
+2019-07-01T23:39:49Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s9010042' for central '_system/9010041'
+2019-07-01T23:39:49Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052266, last uncommitted log tick 22052266, engine rocksdb
+2019-07-01T23:39:49Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052266, last uncommitted log tick 22052266, engine rocksdb
+2019-07-01T23:39:50Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052269, last uncommitted log tick 22052269, engine rocksdb
+2019-07-01T23:39:50Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052269, last uncommitted log tick 22052269, engine rocksdb
+2019-07-01T23:39:50Z [5667] INFO {maintenance} synchronizeOneShard: done, local shard: '_system/s9010042', for central: '_system/9010041', started: 2019-07-01T23:39:49Z, ended: 2019-07-01T23:39:50Z
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s9010042
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s9010044' for central '_system/9010043'
+2019-07-01T23:39:50Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052272, last uncommitted log tick 22052272, engine rocksdb
+2019-07-01T23:39:50Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052272, last uncommitted log tick 22052272, engine rocksdb
+2019-07-01T23:39:50Z [5667] INFO {maintenance} synchronizeOneShard: done, local shard: '_system/s9010016', for central: '_system/9010015', started: 2019-07-01T23:39:49Z, ended: 2019-07-01T23:39:50Z
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s9010016
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010004' for central '_system/5010003'
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010007' for central '_system/5010006'
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010009' for central '_system/5010008'
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010011' for central '_system/5010010'
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010016' for central '_system/5010015'
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010018' for central '_system/5010017'
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010029' for central '_system/5010028'
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010004' for central '_system/5010003'
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010011' for central '_system/5010010'
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010004' for central '_system/5010003'
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010011' for central '_system/5010010'
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010004' for central '_system/5010003'
+2019-07-01T23:39:50Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052272, last uncommitted log tick 22052272, engine rocksdb
+2019-07-01T23:39:50Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052284, last uncommitted log tick 22052284, engine rocksdb
+2019-07-01T23:39:50Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052284, last uncommitted log tick 22052284, engine rocksdb
+2019-07-01T23:39:50Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052284, last uncommitted log tick 22052284, engine rocksdb
+2019-07-01T23:39:50Z [5667] INFO {maintenance} synchronizeOneShard: done, local shard: '_system/s5010004', for central: '_system/5010003', started: 2019-07-01T23:39:50Z, ended: 2019-07-01T23:39:50Z
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s5010004
+2019-07-01T23:39:50Z [5667] INFO {maintenance} SynchronizeShard: synchronizing shard '_system/s5010011' for central '_system/5010010'
+2019-07-01T23:39:50Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052284, last uncommitted log tick 22052284, engine rocksdb
+2019-07-01T23:39:51Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052284, last uncommitted log tick 22052284, engine rocksdb
+2019-07-01T23:39:51Z [5667] INFO {maintenance} synchronizeOneShard: done, local shard: '_system/s9010044', for central: '_system/9010043', started: 2019-07-01T23:39:50Z, ended: 2019-07-01T23:39:51Z
+2019-07-01T23:39:51Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s9010044
+2019-07-01T23:39:51Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052284, last uncommitted log tick 22052284, engine rocksdb
+2019-07-01T23:39:51Z [5667] INFO {replication} connected to master at tcp://localhost:8530, id 121944275151732, version 3.4, last log tick 22052290, last uncommitted log tick 22052290, engine rocksdb
+2019-07-01T23:39:51Z [5667] INFO {maintenance} synchronizeOneShard: done, local shard: '_system/s5010011', for central: '_system/5010010', started: 2019-07-01T23:39:50Z, ended: 2019-07-01T23:39:51Z
+2019-07-01T23:39:51Z [5667] INFO {maintenance} SynchronizeShard: synchronization completed for shard s5010011
