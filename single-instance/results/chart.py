@@ -22,6 +22,6 @@ ax.legend()
 #ax.set(xlabel='número de usuários', ylabel='vazão/s')
 
 #latencia média
-ax.set(xlabel='número de usuários', ylabel='latência média (ms)')
+ax.set(xlabel='número de usuários', ylabel='tempo total de execução (ms)')
 
 plt.show()
